@@ -6,6 +6,8 @@
   position: relative;
   display: inline-block;
   text-align: left;
+  /* 解决日期组件和相邻按钮无法水平对齐 */
+  vertical-align: bottom;
 
   &.el-input,
   &.el-input__inner {
